@@ -2,7 +2,7 @@
 
 This is a demo project showcasing what looks like an issue with size classes on visionOS.
 
-## Here's my expectation:
+## Here's my expectations:
 
 The `horizontalSizeClass` environment variable should reflect the size of the current window and allow me to update my interface accordingly. When resizing the window from a large canva, to make it smaller, it should be updated and transition from `.regular` to `.compact` at some point.  
 
@@ -25,3 +25,4 @@ The `horizontalSizeClass` seems to be locked to the `.regular` value. Resizing t
 
 This issue was diagnosed using visionOS SDK Beta 2. 
 I was able to reproduce this issue on an actual Apple Vision Pro during a lab.
+This issue is also reproducible in the visionOS Simulator in Xcode Beta 6.
